@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN  pip install pymongo
 
-COPY . /app
+COPY .. /app
 
 CMD ["python", "main.py"]
 
